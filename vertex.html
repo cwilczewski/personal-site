@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>Chris Wilczewski | Vertex</title>
+    <meta name="Description" content="Chris Wilczewski is a web designer and developer who finished the Web Design & Interactive Media program at Humber College in Toronto, Canada.">
+    <meta name="Keywords" content="Web Design develope html css js mongodb">
+</head>
+
+<body>
+    <nav>
+        <div id="desktop">
+            <div id="logo-desk">
+                <div class="burger"><span></span><span></span><span></span></div> CW. </div>
+            <div id="links-desk">
+                <ul>
+                    <a id="nav-home" href="#home">
+                        <li class="nav-item">HOME</li>
+                    </a>
+                    <a id="nav-work" class="active" href="#work">
+                        <li class="nav-item">WORK</li>
+                    </a>
+                    <a id="nav-about" href="#about">
+                        <li class="nav-item">ABOUT</li>
+                    </a>
+                    <a id="nav-contact" href="#contact">
+                        <li class="nav-item">CONTACT</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="snoop">
+        <div id="work-page" class="section vertex">
+            <div id="work-content">
+                <h3>VERTEX PLAYER</h3>
+                <h2><a href="https://github.com/cwilczewski/vertexplayer">Visit Github</a></h2>
+                <p>The Vertex Player started off as a Final Assignment for the Web Design Program at Humber College. The original aim was to create a web-based personal media player that was easy and natural to use. We had aimed to use motion through the Leap Motion but found that the technology was still a little finicky, on top of that a user wouldn’t be able to sit on their couch and control the interface since they need to have the leap motion right in front of them.</p>
+                <p>After the assignment due date we decided to do a not only a redesign of the UI but a complete redesign on the backend as well. Switching from storing movie data into a JSON file to having it store in a MongoDB allowed us to dynamically load content onto the page, as well as easily sort, edit, and delete the content. In its current state it only has movies, but in the future we aim to expand the video section to include TV Shows, Home Videos, as well as a Music section and a Photo Section. </p> <a href="/#work" class="info-btn">BACK</a> </div>
+        </div>
+    </div>
+    <script src="scripts/work-script.js"></script>
+</body>
+
+</html>
